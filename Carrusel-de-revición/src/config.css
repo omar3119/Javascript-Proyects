@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .perfil-shadow{
+    box-shadow: 8px -3px 0px #48A7E9;
+  }
+  .roboto{
+    font-family: 'Roboto', sans-serif;
+  }
+  .san{
+    font-family: 'Open Sans', sans-serif;
+    color: #49a6e9;;
+  }
+}

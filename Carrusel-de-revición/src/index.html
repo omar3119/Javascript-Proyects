@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal</title>
+    <link rel="stylesheet" href="./estilos.css" />
+    <script
+      src="https://kit.fontawesome.com/8d52c312df.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body
+    class="w-full h-screen bg-[#F0F4F8] flex justify-center items-center roboto"
+  >
+    <div class="w-[80%] max-w-[620px] flex flex-col items-center">
+      <div class="mb-[64px] flex flex-col items-center">
+        <h1 class="text-[32px] font-[700] tablet:text-[40px]">Our Reviews</h1>
+        <div class="w-[80px] h-1 bg-[#49A6E9]"></div>
+      </div>
+      <article
+        class="bg-white flex flex-col items-center rounded-[10px] py-[24px] px-[32px]"
+      >
+        <div class="flex flex-col items-center">
+          <div class="bg-[#49A6E9] rounded-full perfil-shadow mb-5">
+            <i
+              class="fa-solid fa-quote-right absolute bg-[#49A6E9] text-[20px] text-white p-3 rounded-full"
+            ></i>
+            <img
+              src=""
+              alt="avatar"
+              class="rounded-full w-[150px] h-[150px] object-cover img-avatar"
+            />
+          </div>
+          <h2 class="font-medium mb-[4px] tracking-[0.25rem] name-avatar">
+            Susan Smith
+          </h2>
+          <p class="text-[#66A6EA] mb-[8px] san text-[14px] profession-avatar">
+            WEB DEVELOPER
+          </p>
+        </div>
+        <p
+          class="text-[#617d98] text-center text-[14px] mb-3 san tablet:text-[16px] description-avatar"
+        >
+          I'm baby meggings twee health goth +1. Bicycle rights tumeric
+          chartreuse before they sold out chambray pop-up. Shaman humblebrag
+          pickled coloring book salvia hoodie, cold-pressed four dollar toast
+          everyday carry
+        </p>
+        <div class="flex flex-col items-center">
+          <div class="flex gap-4 text-[1.25rem] font-[900]">
+            <i
+              class="fa-solid fa-chevron-left text-[#8BCAF8] cursor-pointer hover:text-[#49a6e9] btn-prev"
+            ></i>
+            <i
+              class="fa-solid fa-chevron-right text-[#8BCAF8] cursor-pointer hover:text-[#49a6e9] btn-next"
+            ></i>
+          </div>
+          <button
+            class="px-2 py-1 text-[#48A7EA] bg-[#EBF6FE] rounded-xl mt-2 text-[13px] border-2 border-l-[#49a6e9] border-t-[#49a6e9] border-r-[#2E6A95] border-b-[#2E6A95] hover:text-black hover:bg-[#49a6e9] btn-random"
+          >
+            Surprise Me
+          </button>
+        </div>
+      </article>
+    </div>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

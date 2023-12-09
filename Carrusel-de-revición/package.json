@@ -1,0 +1,9 @@
+{
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.3.6"
+  },
+  "scripts": {
+    "scandTailwind": "npx tailwindcss -i ./src/config.css -o ./src/estilos.css --watch"
+  }
+}
