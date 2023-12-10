@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modal</title>
+  <link rel="stylesheet" href="estilos.css">
+  <script src="https://kit.fontawesome.com/8d52c312df.js" crossorigin="anonymous"></script>
+</head>
+<body class="w-full h-screen bg-hero bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center">
+  <section class="w-[90%] max-w-[620px] h-[268px] bg-white rounded-[10px] flex flex-col items-center justify-center shadow-lg">
+    <h1 class="text-[64px] font-[700] mb-3 ">Modal Project</h1>
+    <button class="bg-[#48A6E8] px-3 py-1 text-white mt-8 rounded-[8px] hover:bg-white hover:text-[#48A6E8] border-2 border-[#48A6E8] shadow-lg btn-open">OPEN MODAL</button>
+  </section>
+<div class="w-full h-screen absolute bg-[#49A6E980] hidden  items-center justify-center modal">
+  <section class="w-[90%] max-w-[620px] h-[268px] bg-white rounded-[10px] flex flex-col items-center justify-center shadow-lg relative">
+    <i class="fa-solid fa-xmark absolute top-3 right-4 text-[40px] font-bold text-[#BB2525] cursor-pointer  hover:text-[#e66b6b]  close"></i>
+    <h2 class="text-[28px] font-bold mb-3 tracking-[3px]">Modal Content</h2>
+  </section>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
